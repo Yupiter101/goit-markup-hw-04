@@ -194,6 +194,7 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -218,6 +219,7 @@ body {
 .modal-btn:focus {
   color: var(--btn-color);
   background-color: var(--secondery-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .buttons.list {
@@ -551,6 +553,13 @@ body {
 .portfolio-item {
   flex-basis: calc((100% - 48px)/3);
 }
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 /* --end---portfolio ----------- */
 
 
