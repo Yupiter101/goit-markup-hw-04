@@ -250,7 +250,9 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to top, #2E2F42B3, #2E2F42B3),url(/images/people-office.jpg);;
+  /* background-image: linear-gradient(to top, #2E2F42B3, #2E2F42B3),url(../images/people-office.jpg); */
+  background-image: linear-gradient(to top,  rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
@@ -582,13 +584,16 @@ body {
 
 .footer .logotype {
   color: #f4f4fd;
+  margin-right: 0;
 }
 
 .footer-social-title {
   font-weight: 600;
   /* font-family: "Roboto", sans-serif; */
   color: #FFFFFF;
-  padding-bottom: 16px;
+  /* padding-bottom: 16px; */
+  margin-bottom: 16px;
+
 }
 
 
@@ -596,13 +601,13 @@ body {
 
 .general-footer {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   /* justify-content: center; */
 }
 
 .logo-box {
   max-width: 294px;
-  margin-right: 105px;
+  margin-right: 130px;
   margin-left: 0;
   padding-left: 0;
 }
